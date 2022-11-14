@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #002f86;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(249, 80, 80);
+  padding: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.result {
+  height: 60px;
+  background-color: black;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+  border: 5px solid;
+  animation: banimate 0.5s infinite;
+}
+
+
+@keyframes banimate {
+  0%{
+    border-bottom-color: black;
+  } 
+  25%{
+    border-left-color: black;
+  } 
+  50%{
+    border-top-color: black;
+  }
+  75%{
+    border-right-color: black;
+  }
+}
+
+.button {
+  display: block;
+  background-color: goldenrod;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  color: burlywood;
+  background-color: darkcyan;
+}
